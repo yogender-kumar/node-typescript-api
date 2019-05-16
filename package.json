@@ -1,0 +1,32 @@
+{
+  "name": "payever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "yarn build && node dist/server.js"
+  },
+  "author": "Yogender Kumar",
+  "license": "SIT",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^12.0.2",
+    "@types/node-fetch": "^2.3.3",
+    "@types/request": "^2.48.1",
+    "app-boot": "^1.0.3",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
